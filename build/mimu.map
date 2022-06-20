@@ -1,107 +1,107 @@
 Modules list:
 -------------
 main.o:
-    CODE              Offs=000000  Size=00019F  Align=00001  Fill=0000
-    RODATA            Offs=000000  Size=0000A0  Align=00001  Fill=0000
-    DATA              Offs=000000  Size=00003D  Align=00001  Fill=0000
+    CODE              Offs=000000  Size=0001E8  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=0000CA  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000042  Align=00001  Fill=0000
 mockingboard.o:
-    CODE              Offs=00019F  Size=0001A7  Align=00001  Fill=0000
-    DATA              Offs=00003D  Size=000011  Align=00001  Fill=0000
+    CODE              Offs=0001E8  Size=0001A7  Align=00001  Fill=0000
+    DATA              Offs=000042  Size=000011  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(_hextab.o):
-    RODATA            Offs=0000A0  Size=000010  Align=00001  Fill=0000
+    RODATA            Offs=0000CA  Size=000010  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(_longminstr.o):
-    RODATA            Offs=0000B0  Size=00000C  Align=00001  Fill=0000
+    RODATA            Offs=0000DA  Size=00000C  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(_printf.o):
-    CODE              Offs=000346  Size=0003A5  Align=00001  Fill=0000
+    CODE              Offs=00038F  Size=0003A5  Align=00001  Fill=0000
     BSS               Offs=000000  Size=00002B  Align=00001  Fill=0000
-    DATA              Offs=00004E  Size=000003  Align=00001  Fill=0000
+    DATA              Offs=000053  Size=000003  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(addeqsp.o):
-    CODE              Offs=0006EB  Size=000011  Align=00001  Fill=0000
+    CODE              Offs=000734  Size=000011  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(addysp.o):
-    CODE              Offs=0006FC  Size=00000E  Align=00001  Fill=0000
+    CODE              Offs=000745  Size=00000E  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(axlong.o):
-    CODE              Offs=00070A  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=000753  Size=00000D  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(callmain.o):
-    CODE              Offs=000717  Size=000017  Align=00001  Fill=0000
-    DATA              Offs=000051  Size=000004  Align=00001  Fill=0000
+    CODE              Offs=000760  Size=000017  Align=00001  Fill=0000
+    DATA              Offs=000056  Size=000004  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(clrscr.o):
 /usr/share/cc65/lib/apple2.lib(condes.o):
-    CODE              Offs=00072E  Size=00000C  Align=00001  Fill=0000
-    DATA              Offs=000055  Size=000025  Align=00001  Fill=0000
+    CODE              Offs=000777  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=00005A  Size=000025  Align=00001  Fill=0000
     ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(cprintf.o):
-    CODE              Offs=00073A  Size=00002A  Align=00001  Fill=0000
+    CODE              Offs=000783  Size=00002A  Align=00001  Fill=0000
     BSS               Offs=00002B  Size=000001  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(cputc.o):
-    CODE              Offs=000764  Size=000043  Align=00001  Fill=0000
+    CODE              Offs=0007AD  Size=000043  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(crt0.o):
-    CODE              Offs=0007A7  Size=000012  Align=00001  Fill=0000
-    RODATA            Offs=0000BC  Size=000007  Align=00001  Fill=0000
-    DATA              Offs=00007A  Size=000003  Align=00001  Fill=0000
+    CODE              Offs=0007F0  Size=000012  Align=00001  Fill=0000
+    RODATA            Offs=0000E6  Size=000007  Align=00001  Fill=0000
+    DATA              Offs=00007F  Size=000003  Align=00001  Fill=0000
     STARTUP           Offs=000000  Size=000034  Align=00001  Fill=0000
     ONCE              Offs=00000C  Size=00006A  Align=00001  Fill=0000
     INIT              Offs=000000  Size=00001D  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(ctype.o):
-    RODATA            Offs=0000C3  Size=00008B  Align=00001  Fill=0000
+    RODATA            Offs=0000ED  Size=00008B  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(ctypemask.o):
-    CODE              Offs=0007B9  Size=00001E  Align=00001  Fill=0000
+    CODE              Offs=000802  Size=00001E  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(decsp1.o):
-    CODE              Offs=0007D7  Size=000009  Align=00001  Fill=0000
+    CODE              Offs=000820  Size=000009  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(decsp4.o):
-    CODE              Offs=0007E0  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=000829  Size=00000D  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(decsp6.o):
-    CODE              Offs=0007ED  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=000836  Size=00000D  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(exehdr.o):
     EXEHDR            Offs=000000  Size=00003A  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(gotoxy.o):
-    CODE              Offs=0007FA  Size=000011  Align=00001  Fill=0000
+    CODE              Offs=000843  Size=000011  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(home.o):
     LOWCODE           Offs=000000  Size=00000A  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(icmp.o):
-    CODE              Offs=00080B  Size=00002E  Align=00001  Fill=0000
+    CODE              Offs=000854  Size=00002E  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(incsp1.o):
-    CODE              Offs=000839  Size=000007  Align=00001  Fill=0000
+    CODE              Offs=000882  Size=000007  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(incsp2.o):
-    CODE              Offs=000840  Size=000016  Align=00001  Fill=0000
+    CODE              Offs=000889  Size=000016  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(incsp3.o):
-    CODE              Offs=000856  Size=000005  Align=00001  Fill=0000
+    CODE              Offs=00089F  Size=000005  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(incsp4.o):
-    CODE              Offs=00085B  Size=000005  Align=00001  Fill=0000
+    CODE              Offs=0008A4  Size=000005  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(incsp8.o):
-    CODE              Offs=000860  Size=000005  Align=00001  Fill=0000
+    CODE              Offs=0008A9  Size=000005  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(kbhit.o):
-    CODE              Offs=000865  Size=000009  Align=00001  Fill=0000
+    CODE              Offs=0008AE  Size=000009  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(lneg.o):
-    CODE              Offs=00086E  Size=00001E  Align=00001  Fill=0000
+    CODE              Offs=0008B7  Size=00001E  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(lpush.o):
-    CODE              Offs=00088C  Size=000021  Align=00001  Fill=0000
+    CODE              Offs=0008D5  Size=000021  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(ltoa.o):
-    CODE              Offs=0008AD  Size=000095  Align=00001  Fill=0000
+    CODE              Offs=0008F6  Size=000095  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(popa.o):
-    CODE              Offs=000942  Size=00000C  Align=00001  Fill=0000
+    CODE              Offs=00098B  Size=00000C  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(popptr1.o):
-    CODE              Offs=00094E  Size=00000E  Align=00001  Fill=0000
+    CODE              Offs=000997  Size=00000E  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(push1.o):
-    CODE              Offs=00095C  Size=000005  Align=00001  Fill=0000
+    CODE              Offs=0009A5  Size=000005  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(pusha.o):
-    CODE              Offs=000961  Size=000016  Align=00001  Fill=0000
+    CODE              Offs=0009AA  Size=000016  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(pushax.o):
-    CODE              Offs=000977  Size=00001A  Align=00001  Fill=0000
+    CODE              Offs=0009C0  Size=00001A  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(pushwsp.o):
-    CODE              Offs=000991  Size=00001C  Align=00001  Fill=0000
+    CODE              Offs=0009DA  Size=00001C  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(shr.o):
-    CODE              Offs=0009AD  Size=000034  Align=00001  Fill=0000
+    CODE              Offs=0009F6  Size=000034  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(strlen.o):
-    CODE              Offs=0009E1  Size=000016  Align=00001  Fill=0000
+    CODE              Offs=000A2A  Size=000016  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(strlower.o):
-    CODE              Offs=0009F7  Size=000027  Align=00001  Fill=0000
+    CODE              Offs=000A40  Size=000027  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(vcprintf.o):
-    CODE              Offs=000A1E  Size=000078  Align=00001  Fill=0000
-    DATA              Offs=00007D  Size=000008  Align=00001  Fill=0000
+    CODE              Offs=000A67  Size=000078  Align=00001  Fill=0000
+    DATA              Offs=000082  Size=000008  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(vtabz.o):
     LOWCODE           Offs=00000A  Size=00000A  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(zerobss.o):
-    CODE              Offs=000A96  Size=000023  Align=00001  Fill=0000
+    CODE              Offs=000ADF  Size=000023  Align=00001  Fill=0000
 /usr/share/cc65/lib/apple2.lib(zeropage.o):
     ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
 
@@ -114,55 +114,55 @@ ZEROPAGE              000080  000099  00001A  00001
 EXEHDR                0007C9  000802  00003A  00001
 STARTUP               000803  000836  000034  00001
 LOWCODE               000837  00084A  000014  00001
-CODE                  00084B  001303  000AB9  00001
-RODATA                001304  001451  00014E  00001
-DATA                  001452  0014D6  000085  00001
-INIT                  0014D7  0014F3  00001D  00001
-BSS                   0014F4  00151F  00002C  00001
-ONCE                  0014F4  001569  000076  00001
+CODE                  00084B  00134C  000B02  00001
+RODATA                00134D  0014C4  000178  00001
+DATA                  0014C5  00154E  00008A  00001
+INIT                  00154F  00156B  00001D  00001
+BSS                   00156C  001597  00002C  00001
+ONCE                  00156C  0015E1  000076  00001
 
 
 Exports list by name:
 ---------------------
 HOME                      000837 RLA    VTABZ                     000841 RLA    
-__BSS_RUN__               0014F4 RLA    __BSS_SIZE__              00002C REA    
-__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     00156A RLA    
-__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      001452 RLA    
+__BSS_RUN__               00156C RLA    __BSS_SIZE__              00002C REA    
+__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     0015E2 RLA    
+__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      0014C5 RLA    
 __EXEHDR__                000001 REA    __FILETYPE__              000006 REA    
 __HIMEM__                 009600 REA    __LCADDR__                00D400 REA    
 __LCSIZE__                000C00 REA    __LC_LAST__               00D400 RLA    
-__LC_START__              00D400 RLA    __MAIN_LAST__             00156A RLA    
-__MAIN_START__            000803 RLA    __ONCE_LOAD__             0014F4 RLA    
-__ONCE_RUN__              0014F4 RLA    __ONCE_SIZE__             000076 REA    
+__LC_START__              00D400 RLA    __MAIN_LAST__             0015E2 RLA    
+__MAIN_START__            000803 RLA    __ONCE_LOAD__             00156C RLA    
+__ONCE_RUN__              00156C RLA    __ONCE_SIZE__             000076 REA    
 __STACKSIZE__             000800 REA    __STARTUP__               000001 REA    
-__ctype                   0013C7 RLA    __ctypeidx                0013D2 RLA    
-__hextab                  0013A4 RLA    __longminstr              0013B4 RLA    
-__printf                  000C84 RLA    _clrscr                   000837 RLA    
-_cprintf                  000F85 RLA    _cputc                    000FB4 RLA    
-_gotoxy                   001048 RLA    _kbhit                    0010B0 RLA    
-_ltoa                     001110 RLA    _main                     0008CE RLA    
-_mockingBoardInit         0009EA RLA    _mockingBoardPlaySound    000A54 RLA    
-_mockingBoardStopSound    000A8A RLA    _strlen                   00122C RLA    
-_strlower                 001242 RLA    _ultoa                    001151 RLA    
-_vcprintf                 0012B1 RLA    addeqysp                  000F38 RLA    
-addysp                    000F48 RLA    axlong                    000F55 RLA    
-axulong                   000F5B RLA    callmain                  000F62 RLA    
-ctypemaskdirect           001008 RLA    decsp1                    001022 RLA    
-decsp4                    00102B RLA    decsp6                    001038 RLA    
-donelib                   000F79 RLA    gotoxy                    001045 RLA    
-incsp1                    001084 RLA    incsp2                    001093 RLA    
-incsp3                    0010A1 RLA    incsp4                    0010A6 RLA    
-incsp8                    0010AB RLA    initlib                   0014F4 RLA    
-negeax                    0010B9 RLA    popa                      00118D RLA    
-popax                     00108B RLA    popptr1                   001199 RLA    
+__ctype                   00143A RLA    __ctypeidx                001445 RLA    
+__hextab                  001417 RLA    __longminstr              001427 RLA    
+__printf                  000CCD RLA    _clrscr                   000837 RLA    
+_cprintf                  000FCE RLA    _cputc                    000FFD RLA    
+_gotoxy                   001091 RLA    _kbhit                    0010F9 RLA    
+_ltoa                     001159 RLA    _main                     0008CE RLA    
+_mockingBoardInit         000A33 RLA    _mockingBoardPlaySound    000A9D RLA    
+_mockingBoardStopSound    000AD3 RLA    _strlen                   001275 RLA    
+_strlower                 00128B RLA    _ultoa                    00119A RLA    
+_vcprintf                 0012FA RLA    addeqysp                  000F81 RLA    
+addysp                    000F91 RLA    axlong                    000F9E RLA    
+axulong                   000FA4 RLA    callmain                  000FAB RLA    
+ctypemaskdirect           001051 RLA    decsp1                    00106B RLA    
+decsp4                    001074 RLA    decsp6                    001081 RLA    
+donelib                   000FC2 RLA    gotoxy                    00108E RLA    
+incsp1                    0010CD RLA    incsp2                    0010DC RLA    
+incsp3                    0010EA RLA    incsp4                    0010EF RLA    
+incsp8                    0010F4 RLA    initlib                   00156C RLA    
+negeax                    001102 RLA    popa                      0011D6 RLA    
+popax                     0010D4 RLA    popptr1                   0011E2 RLA    
 ptr1                      000088 RLZ    ptr2                      00008A RLZ    
-ptr3                      00008C RLZ    push1                     0011A7 RLA    
-pusha                     0011B0 RLA    pusha0                    0011C4 RLA    
-pushax                    0011C6 RLA    pusheax                   0010E0 RLA    
-pushw0sp                  0011DC RLA    regbank                   000094 RLZ    
-shraxy                    0011FF RLA    sp                        000080 RLZ    
+ptr3                      00008C RLZ    push1                     0011F0 RLA    
+pusha                     0011F9 RLA    pusha0                    00120D RLA    
+pushax                    00120F RLA    pusheax                   001129 RLA    
+pushw0sp                  001225 RLA    regbank                   000094 RLZ    
+shraxy                    001248 RLA    sp                        000080 RLZ    
 sreg                      000082 RLZ    tmp1                      000090 RLZ    
-tosicmp                   001058 RLA    zerobss                   0012E1 RLA    
+tosicmp                   0010A1 RLA    zerobss                   00132A RLA    
 
 
 
@@ -178,33 +178,33 @@ tmp1                      000090 RLZ    regbank                   000094 RLZ
 __STACKSIZE__             000800 REA    __MAIN_START__            000803 RLA    
 HOME                      000837 RLA    _clrscr                   000837 RLA    
 VTABZ                     000841 RLA    _main                     0008CE RLA    
-_mockingBoardInit         0009EA RLA    _mockingBoardPlaySound    000A54 RLA    
-_mockingBoardStopSound    000A8A RLA    __LCSIZE__                000C00 REA    
-__printf                  000C84 RLA    addeqysp                  000F38 RLA    
-addysp                    000F48 RLA    axlong                    000F55 RLA    
-axulong                   000F5B RLA    callmain                  000F62 RLA    
-donelib                   000F79 RLA    _cprintf                  000F85 RLA    
-_cputc                    000FB4 RLA    ctypemaskdirect           001008 RLA    
-decsp1                    001022 RLA    decsp4                    00102B RLA    
-decsp6                    001038 RLA    gotoxy                    001045 RLA    
-_gotoxy                   001048 RLA    tosicmp                   001058 RLA    
-incsp1                    001084 RLA    popax                     00108B RLA    
-incsp2                    001093 RLA    incsp3                    0010A1 RLA    
-incsp4                    0010A6 RLA    incsp8                    0010AB RLA    
-_kbhit                    0010B0 RLA    negeax                    0010B9 RLA    
-pusheax                   0010E0 RLA    _ltoa                     001110 RLA    
-_ultoa                    001151 RLA    popa                      00118D RLA    
-popptr1                   001199 RLA    push1                     0011A7 RLA    
-pusha                     0011B0 RLA    pusha0                    0011C4 RLA    
-pushax                    0011C6 RLA    pushw0sp                  0011DC RLA    
-shraxy                    0011FF RLA    _strlen                   00122C RLA    
-_strlower                 001242 RLA    _vcprintf                 0012B1 RLA    
-zerobss                   0012E1 RLA    __hextab                  0013A4 RLA    
-__longminstr              0013B4 RLA    __ctype                   0013C7 RLA    
-__ctypeidx                0013D2 RLA    __DESTRUCTOR_TABLE__      001452 RLA    
-__BSS_RUN__               0014F4 RLA    __ONCE_LOAD__             0014F4 RLA    
-__ONCE_RUN__              0014F4 RLA    initlib                   0014F4 RLA    
-__CONSTRUCTOR_TABLE__     00156A RLA    __MAIN_LAST__             00156A RLA    
+_mockingBoardInit         000A33 RLA    _mockingBoardPlaySound    000A9D RLA    
+_mockingBoardStopSound    000AD3 RLA    __LCSIZE__                000C00 REA    
+__printf                  000CCD RLA    addeqysp                  000F81 RLA    
+addysp                    000F91 RLA    axlong                    000F9E RLA    
+axulong                   000FA4 RLA    callmain                  000FAB RLA    
+donelib                   000FC2 RLA    _cprintf                  000FCE RLA    
+_cputc                    000FFD RLA    ctypemaskdirect           001051 RLA    
+decsp1                    00106B RLA    decsp4                    001074 RLA    
+decsp6                    001081 RLA    gotoxy                    00108E RLA    
+_gotoxy                   001091 RLA    tosicmp                   0010A1 RLA    
+incsp1                    0010CD RLA    popax                     0010D4 RLA    
+incsp2                    0010DC RLA    incsp3                    0010EA RLA    
+incsp4                    0010EF RLA    incsp8                    0010F4 RLA    
+_kbhit                    0010F9 RLA    negeax                    001102 RLA    
+pusheax                   001129 RLA    _ltoa                     001159 RLA    
+_ultoa                    00119A RLA    popa                      0011D6 RLA    
+popptr1                   0011E2 RLA    push1                     0011F0 RLA    
+pusha                     0011F9 RLA    pusha0                    00120D RLA    
+pushax                    00120F RLA    pushw0sp                  001225 RLA    
+shraxy                    001248 RLA    _strlen                   001275 RLA    
+_strlower                 00128B RLA    _vcprintf                 0012FA RLA    
+zerobss                   00132A RLA    __hextab                  001417 RLA    
+__longminstr              001427 RLA    __ctype                   00143A RLA    
+__ctypeidx                001445 RLA    __DESTRUCTOR_TABLE__      0014C5 RLA    
+__BSS_RUN__               00156C RLA    __ONCE_LOAD__             00156C RLA    
+__ONCE_RUN__              00156C RLA    initlib                   00156C RLA    
+__CONSTRUCTOR_TABLE__     0015E2 RLA    __MAIN_LAST__             0015E2 RLA    
 __HIMEM__                 009600 REA    __LCADDR__                00D400 REA    
 __LC_LAST__               00D400 RLA    __LC_START__              00D400 RLA    
 
@@ -328,7 +328,7 @@ incsp1 (incsp1.o):
 incsp2 (incsp2.o):
     popptr1.o                 runtime/popptr1.s:8
     mockingboard.o            src/mockingboard.s:329
-    main.o                    src/main.s:306
+    main.o                    src/main.s:341
 incsp3 (incsp3.o):
     mockingboard.o            src/mockingboard.s:329
 incsp4 (incsp4.o):
@@ -376,11 +376,11 @@ pusha (pusha.o):
     mockingboard.o            src/mockingboard.s:329
     mockingboard.o            src/mockingboard.s:329
     mockingboard.o            src/mockingboard.s:329
-    main.o                    src/main.s:306
-    main.o                    src/main.s:306
+    main.o                    src/main.s:341
+    main.o                    src/main.s:341
 pusha0 (pushax.o):
     push1.o                   runtime/push1.s:8
-    main.o                    src/main.s:306
+    main.o                    src/main.s:341
 pushax (pushax.o):
     callmain.o                runtime/callmain.s:11
     _printf.o                 common/_printf.s:11
@@ -389,7 +389,7 @@ pushax (pushax.o):
     mockingboard.o            src/mockingboard.s:329
     mockingboard.o            src/mockingboard.s:329
     mockingboard.o            src/mockingboard.s:329
-    main.o                    src/main.s:306
+    main.o                    src/main.s:341
 pusheax (lpush.o):
     _printf.o                 common/_printf.s:11
 pushw0sp (pushwsp.o):
@@ -397,7 +397,7 @@ pushw0sp (pushwsp.o):
 regbank (zeropage.o):
     _printf.o                 /usr/src/packages/BUILD/asminc/zeropage.inc:14
 shraxy (shr.o):
-    main.o                    src/main.s:306
+    main.o                    src/main.s:341
 sp (zeropage.o):
     decsp4.o                  runtime/decsp4.s:8
     popptr1.o                 runtime/popptr1.s:9
@@ -432,9 +432,8 @@ tmp1 (zeropage.o):
     _printf.o                 /usr/src/packages/BUILD/asminc/zeropage.inc:13
     vcprintf.o                conio/vcprintf.s:10
     shr.o                     runtime/shr.s:16
-    main.o                    src/main.s:11
 tosicmp (icmp.o):
-    main.o                    src/main.s:306
+    main.o                    src/main.s:341
 zerobss (zerobss.o):
     crt0.o                    apple2/crt0.s:11
 
